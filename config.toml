@@ -53,6 +53,10 @@ copyright = "© {year}"
   [markup.goldmark.renderer]
       unsafe = true
 
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    page = "/:slug/"
+
 # Controls the navigation
 [[menu.main]]
   identifier = "about"
@@ -61,10 +65,10 @@ copyright = "© {year}"
   url = "/"
 
 [[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  title = "Blog"
-  url = "/blog"
+  identifier = "posts"
+  name = "posts"
+  title = "markus*posts"
+  url = "/posts/"
 
 
 
